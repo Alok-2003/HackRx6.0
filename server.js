@@ -5,6 +5,11 @@ import { askGemini } from './gemini.js';
 const app = express();
 app.use(express.json());
 
+// Home route
+app.get('/', (req, res) => {
+  res.json({ message: 'Welcome to the Bajaj API server', status: 'Server is running' });
+});
+
 app.post("/hackrx/run", async (req, res) => {
   const { documents, questions } = req.body;
 
