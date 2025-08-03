@@ -1,2 +1,6 @@
+# Ignore the environment file
 .env
-node_modules
+
+# Ignore Python's virtual environment folder
+venv/
+__pycache__/
