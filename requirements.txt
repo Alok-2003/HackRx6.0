@@ -4,7 +4,12 @@ pydantic
 sentence-transformers
 numpy
 httpx
-PyMuPDF
 python-dotenv
 scipy==1.11.4
 tf-keras
+PyMuPDF
+torch
+torchvision
+torchaudio
+unstructured[pdf,local-inference]
+rank_bm25
